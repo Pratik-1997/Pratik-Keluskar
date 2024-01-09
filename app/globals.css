@@ -32,8 +32,8 @@ body {
 }
 
 .container .block {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   width: calc((100% / 2) - 1rem);
 }
 
@@ -490,6 +490,12 @@ body {
     height: 1px;
     border-radius: 10px;
     cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1440px){
+  .sub-links {
+    margin-top: 3rem;
   }
 }
 
