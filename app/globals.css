@@ -420,6 +420,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: scaleAnimation 2s infinite alternate;
+}
+
+@keyframes scaleAnimation {
+  0% {
+    transform: scale(0.95);
+  }
+
+  100% {
+    transform: scale(1.05);
+  }
 }
 
 .projects-box .hover {
@@ -493,7 +504,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1000px) and (max-width: 1440px){
+@media screen and (min-width: 1000px) and (max-width: 1440px) {
   .sub-links {
     margin-top: 3rem;
   }

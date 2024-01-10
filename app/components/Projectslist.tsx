@@ -60,14 +60,14 @@ const Projectslist = () => {
       techs: ["React"],
       link: "-",
     },
-    {
-      id: 8,
-      year: "2022",
-      name: "Lyfe Hotel",
-      made: "Interactive Avenues",
-      techs: ["Html", "Css", "jQuery"],
-      link: "https://www.lyfehotels.com/",
-    },
+    // {
+    //   id: 8,
+    //   year: "2022",
+    //   name: "Lyfe Hotel",
+    //   made: "Interactive Avenues",
+    //   techs: ["Html", "Css", "jQuery"],
+    //   link: "https://www.lyfehotels.com/",
+    // },
     {
       id: 9,
       year: "2022",
