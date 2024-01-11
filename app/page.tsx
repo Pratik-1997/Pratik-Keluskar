@@ -8,9 +8,29 @@ import ACT from './assets/act.png';
 import Zod from './assets/zod.png';
 import Duracoat from './assets/duracoat.png';
 import Link from '@/node_modules/next/link';
+import { useEffect } from 'react';
+import { useInView } from 'react-intersection-observer';
 
 export default function Home() {
 
+
+
+
+    const scrolltoHash = function (element_id: string, leftId: string) {
+      const element = document.getElementById(element_id)
+      element?.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
+      const elementLeft : any = document.getElementsByClassName("links");
+      for( let i = 0 ; i <= elementLeft.length ; i++){
+        console.log(elementLeft[i]?.id)
+        if (elementLeft[i]?.id === leftId) {
+          // Add "active" class to the clicked element
+          elementLeft[i]?.classList.add("active");
+      } else {
+          // Remove "active" class from other elements
+          elementLeft[i]?.classList.remove("active");
+      }
+      }
+    }
 
   return (
     <main>
@@ -20,15 +40,15 @@ export default function Home() {
           <p className="jd">Associate Developer at Interactive Avenues</p>
           <p className="short-descp">I build pixel-perfect, accessible sites for the web and beyond.</p>
           <div className="sub-links">
-            <ul>
+            <ul> 
               <li>
-                <a href="#about"><span className="line"></span>About</a>
+                <a onClick={() => scrolltoHash('about', 'aboutLink' )} className="links" id='aboutLink'><span className="line"></span>About</a>
               </li>
               <li>
-                <a href="#experience"><span className="line"></span>Experience</a>
+                <a onClick={() => scrolltoHash('experience', 'expLink')}  className="links" id='expLink' ><span className="line"></span>Experience</a>
               </li>
               <li>
-                <a href="#projects"><span className="line"></span>Projects</a>
+                <a onClick={() => scrolltoHash('projects', 'projLink')}  className="links" id='projLink'><span className="line"></span>Projects</a>
               </li>
             </ul>
           </div>

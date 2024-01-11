@@ -191,6 +191,7 @@ body {
   text-transform: uppercase;
   letter-spacing: .1em;
   font-size: 0.75rem;
+  cursor: pointer;
 }
 
 .sub-links ul li a .line {
@@ -204,12 +205,14 @@ body {
   display: inline-block;
 }
 
-.sub-links ul li a:hover .line {
+.sub-links ul li a:hover .line ,
+.sub-links ul li a.links.active .line {
   width: 4rem;
   background-color: #94A3B8;
 }
 
-.sub-links ul li a:hover {
+.sub-links ul li a:hover ,
+.sub-links ul li a.links.active  {
   color: #fff;
 }
 
