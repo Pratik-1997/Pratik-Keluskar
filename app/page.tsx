@@ -33,8 +33,8 @@ export default function Home() {
 
   return (
     <main>
-      <div className="focus"></div>
-      <FocusComponent />
+      {/* <div className="focus"></div>
+      <FocusComponent /> */}
       <div className="container">
         <div className="left-block block">
           <h1 className='name'>Pratik Keluskar</h1>
