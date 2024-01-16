@@ -1,3 +1,4 @@
+// components/FocusComponent.js
 import { useEffect } from 'react';
 
 const FocusComponent = () => {
@@ -5,12 +6,12 @@ const FocusComponent = () => {
     let x = e.pageX;
     let y = e.pageY;
 
-    const focus = document.querySelector('.focus');
+    const focus = document.querySelector('.focus') as HTMLElement;
     if (focus) {
-        // Adjust the transparent percentage to make the radial background smaller
-        const transparentPercentage = 25; // Change this value as needed
-        focus.style.background = `radial-gradient(circle at ${x}px ${y}px, rgba(190, 255, 255, 0.1), transparent ${transparentPercentage}%)`;
-      }
+      // Adjust the transparent percentage to make the radial background smaller
+      const transparentPercentage = 24; // Change this value as needed
+      focus.style.background = `radial-gradient(circle at ${x}px ${y}px, rgba(190, 255, 255, 0.2), transparent ${transparentPercentage}%)`;
+    }
   };
 
   useEffect(() => {
