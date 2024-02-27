@@ -34,7 +34,7 @@ const Projectslist = () => {
       name: "BOB Financial",
       made: "Interactive Avenues",
       techs: ["Next"],
-      link: "-",
+      link: "https://bobcard.co.in/",
     },
     {
       id: 5,
@@ -58,7 +58,7 @@ const Projectslist = () => {
       name: "AmazonxIa Portal",
       made: "Interactive Avenues",
       techs: ["React"],
-      link: "-",
+      link: "https://amazonportal.interactiveavenues.in/home",
     },
     // {
     //   id: 8,

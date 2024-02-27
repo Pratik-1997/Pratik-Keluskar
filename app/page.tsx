@@ -70,9 +70,9 @@ export default function Home() {
               <h3>Experience</h3>
             </div>
             <Experience year="2022 - Present" pos="Associate Developer · Interactive Avenues" descp="
-Collaborating with a team on React.js projects, executing various functionalities across multiple initiatives, and delivering production-ready code. Emphasizing SEO considerations to prioritize performance." techs={['Html', 'Css', 'Scss' , 'Js', 'jQuery', 'React', 'Next']}/>
+Collaborating with a team on React.js projects, executing various functionalities across multiple initiatives, and delivering production-ready code. Emphasizing SEO considerations to prioritize performance." techs={['Next' , 'React' , 'Angular' , 'Shopify', 'javaScript' , 'jQuery' , 'Scss' , 'Bootstrap' , 'HTML 5' , 'Css 3']}/>
             <Experience year="2021 - 2022" pos="Web Developer · Velocity Consultancy" descp="
-Executing WordPress projects involving custom themes and premium themes, incorporating functionalities based on client specifications. Utilizing primarily PHP, HTML, CSS, and JS languages. Additionally, providing guidance to teammates to enhance their comprehension of UI requirements." techs={['Html', 'Css', 'Js', 'jQuery', 'Wordpress', 'Php']}/>
+Executing WordPress projects involving custom themes and premium themes, incorporating functionalities based on client specifications. Utilizing primarily PHP, HTML, CSS, and JS languages. Additionally, providing guidance to teammates to enhance their comprehension of UI requirements." techs={[ 'Wordpress' , 'javaScript' , 'jQuery' , 'Bootstrap' , 'HTML 5' , 'Css 3']}/>
           </div>
           <div className="sm-right-block" id="projects">
           <div className="mob-sticky">

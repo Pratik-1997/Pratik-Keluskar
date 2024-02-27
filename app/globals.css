@@ -442,17 +442,17 @@ body {
   font-size: 12px;
   left: 50%;
   transform: translateX(-50%);
-  top: -0%;
+  top: -20px;
   width: 150px;
   text-align: center;
-  opacity: 0;
+  /* opacity: 0; */
   transition: .3s all;
 }
 
-.projects-box:hover .hover {
+/* .projects-box:hover .hover {
   opacity: 1;
   top: -50%;
-}
+} */
 
 .projects-box svg {
   fill: #fff;
