@@ -518,6 +518,7 @@ body {
   .container {
     max-width: 95%;
     flex-wrap: wrap;
+    gap: 0rem;
   }
 
   .container .left-block {
@@ -529,6 +530,9 @@ body {
     width: 100%;
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+  .container .block.right-block {
+    padding-top: 0rem;
   }
 
   .name {
