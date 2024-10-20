@@ -3,6 +3,11 @@ import Downloads from './components/Downloads'
 import Experience from './components/Experience'
 import Projects from './components/Projects'
 import styles from './page.module.css'
+import Bob from './assets/bob-cards.png';
+import portal from './assets/act-portal.png';
+import iages from './assets/iages.png';
+import ralson from './assets/ralson.png';
+import ralco from './assets/ralco.png';
 import Mt from './assets/mt.png';
 import ACT from './assets/act.png';
 import Zod from './assets/zod.png';
@@ -43,7 +48,7 @@ export default function Home() {
           <div className="sub-links">
             <ul> 
               <li>
-                <a onClick={() => scrolltoHash('about', 'aboutLink' )} className="links" id='aboutLink'><span className="line"></span>About</a>
+                <a onClick={() => scrolltoHash('about', 'aboutLink' )} className="links active" id='aboutLink'><span className="line"></span>About</a>
               </li>
               <li>
                 <a onClick={() => scrolltoHash('experience', 'expLink')}  className="links" id='expLink' ><span className="line"></span>Experience</a>
@@ -77,6 +82,11 @@ Executing WordPress projects involving custom themes and premium themes, incorpo
           <div className="sm-right-block" id="projects">
           <div className="mob-sticky">
             <h3>Projects</h3></div>
+            <Projects img={Bob} name="BOB Financial" descp="Involvement in new UI and functionality for filtering data, creation of new pages, and ensuring deployment at proper times. " />
+            <Projects img={portal} name="ACT Upgrade Portal" descp="Developed an Angular app from scratch for upgrading internet packages for ACT, incorporating various functionalities and integrating payment processing through BillDesk." />
+            <Projects img={iages} name="World Gold council" descp="Building Next application from scratch for World Gold Council " />
+            <Projects img={ralco} name="Ralco Tyres" descp="" />
+            <Projects img={ralson} name="Ralson Tyres" descp="" />
             <Projects img={Mt} name="Mahindra Tractor" descp="Contributed to the development of UI components for the project, aiding the team in completing the project ahead of schedule. " />
             <Projects img={ACT} name="ACT" descp="Developed the homepage for a website, incorporating diverse functionalities. Additionally, played a key role in implementing Ajax calls and backend functionalities within the Drupal framework. " />
             <Projects img={Zod} name="Zodiac Clothing" descp="The primary objective of this project was to enhance the SEO score, which saw significant improvement during my involvement. Additionally, I contributed to establishing the fundamental UI/UX structure across the entire website." />

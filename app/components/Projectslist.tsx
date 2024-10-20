@@ -4,6 +4,46 @@ import { useState } from "react";
 const Projectslist = () => {
   const list = [
     {
+      id: 17,
+      year: "2024",
+      name: "BOB Financial",
+      made: "Interactive Avenues",
+      techs: ["Next", "Bootstrap" , "Umbraco"],
+      link: "https://www.bobcard.co.in/",
+    },
+    {
+      id: 18,
+      year: "2024",
+      name: "ACT Upgrade Portal",
+      made: "Interactive Avenues",
+      techs: ["Angular"],
+      link: "-",
+    },
+    {
+      id: 19,
+      year: "2024",
+      name: "World Gold council",
+      made: "Interactive Avenues",
+      techs: ["Next","Umbraco"],
+      link: "https://iages.com/",
+    },
+    {
+      id: 20,
+      year: "2023",
+      name: "Ralco Tyres",
+      made: "Interactive Avenues",
+      techs: ["Angular","Bootstrap"],
+      link: "https://ralcotyres.com/",
+    },
+    {
+      id: 21,
+      year: "2023",
+      name: "Ralson Tyres",
+      made: "Interactive Avenues",
+      techs: ["Angular","Bootstrap"],
+      link: "https://ralson.com/",
+    },
+    {
       id: 1,
       year: "2023",
       name: "Mahindra Tractor",
@@ -28,14 +68,14 @@ const Projectslist = () => {
       link: " https://www.bayclub.in//",
     },
 
-    {
-      id: 4,
-      year: "2022",
-      name: "BOB Financial",
-      made: "Interactive Avenues",
-      techs: ["Next"],
-      link: "https://bobcard.co.in/",
-    },
+    // {
+    //   id: 4,
+    //   year: "2022",
+    //   name: "BOB Financial",
+    //   made: "Interactive Avenues",
+    //   techs: ["Next"],
+    //   link: "https://bobcard.co.in/",
+    // },
     {
       id: 5,
       year: "2023",
