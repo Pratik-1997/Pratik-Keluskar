@@ -642,6 +642,12 @@ body {
   .table table thead th {
     padding-right: 1.25rem;
   }
+  .projects-box > .hover .d-inline-block {
+    display: block;
+  }
+  .projects-box .hover {
+    top: -30px;
+  }
 }
 
 main {
