@@ -3,6 +3,7 @@ import Image from "@/node_modules/next/image"
 const Projects = (props:any) => {
   return (
     <>
+          <a href={props.href}>
         <div className="projectsBlock">
             <div className="image">
                 <Image src={props.img} alt="project" width={200} height={150} className="img-fluid" />
@@ -12,6 +13,7 @@ const Projects = (props:any) => {
                 <p className="projDescp">{props.descp}</p>
             </div>
         </div>
+            </a>
     </>
   )
 }

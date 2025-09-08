@@ -4,6 +4,22 @@ import { useState } from "react";
 const Projectslist = () => {
   const list = [
     {
+      id: 23,
+      year: "2025",
+      name: "Honda",
+      made: "Interactive Avenues",
+      techs: ["Next", "Sitecore" , "Supabase"],
+      link: "https://www.honda2wheelersindia.com/",
+    },
+    {
+      id: 24,
+      year: "2025",
+      name: "Caliper Tool",
+      made: "Interactive Avenues",
+      techs: ["Next", "Java"],
+      link: "-",
+    },
+    {
       id: 17,
       year: "2024",
       name: "BOB Financial",
@@ -195,6 +211,8 @@ const Projectslist = () => {
           value={selectedYear || ""}
         >
           <option value="">All Years</option>
+          <option value="2025">2025</option>
+          <option value="2024">2024</option>
           <option value="2023">2023</option>
           <option value="2022">2022</option>
           <option value="2021">2021</option>
